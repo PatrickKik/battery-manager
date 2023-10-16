@@ -28,6 +28,7 @@ dependencies {
 	implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
 	implementation("io.micrometer:micrometer-tracing-bridge-brave")
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
+	implementation("org.javamoney:moneta:1.4.2")
 	developmentOnly("org.springframework.boot:spring-boot-docker-compose")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testImplementation("org.springframework.security:spring-security-test")
